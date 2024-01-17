@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Loading data
-
 data_matrix_train, COP_train, data_matrix_test, COP_test, names = np.load('data_center_data_matrix.npy', allow_pickle=True)
 
 # Constructing matrices for min_w ||A w - b||_2**2
